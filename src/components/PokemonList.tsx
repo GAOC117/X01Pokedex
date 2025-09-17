@@ -22,6 +22,7 @@ export default function PokemonList() {
                 <button
                   key={pokemon.id}
                   className="w-full max-w-[120px] aspect-square 
+                  cursor-pointer
                  bg-[rgb(216,233,244)] rounded-xl 
                  hover:scale-105 transition-all duration-200 
                  flex justify-center items-center pokeshadow"
