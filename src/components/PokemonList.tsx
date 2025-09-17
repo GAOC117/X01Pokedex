@@ -22,7 +22,10 @@ export default function PokemonList() {
               
                 <button
                   key={pokemon.id}
-                  className="w-18 h-18 sm:w-26 sm:h-26 xl:w-30 xl:h-30 bg-[rgb(216,233,244)] rounded-xl hover:scale-105 transition-all duration-200 flex justify-center items-center pokeshadow"
+                    className="w-full max-w-[120px] aspect-square 
+             bg-[rgb(216,233,244)] rounded-xl 
+             hover:scale-105 transition-all duration-200 
+             flex justify-center items-center pokeshadow"
                   onClick={() =>
                     mostrarEnPokedex(
                       pokemon.imageUrl,
