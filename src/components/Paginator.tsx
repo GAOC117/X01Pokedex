@@ -26,7 +26,7 @@ export default function Paginator({
   const paginas = getPagination(paginaActual, totalPaginas, botonesPorPagina);
   return (
     <>
-      <nav className="flex flex-col items-center space-y-4w-full p-5 sm:mt-15">
+      <nav className="flex flex-col items-center space-y-4w-full p-5 mt-20 sm:mt-15">
         {/* Versión móvil - solo botones anterior/siguiente */}
         <div className="flex justify-between  sm:hidden">
           <button
