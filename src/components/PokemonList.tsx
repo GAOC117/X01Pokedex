@@ -14,7 +14,7 @@ export default function PokemonList() {
 
   return (
     <>
-      <div className="w-full 2xl:w-[800px]  bg-amber-500 sm:bg-red-500 lg:bg-green-600 h-[400px] md:h-[500px] lg:h-[700px] flex justify-center items-center lg:px-10 lg:mt-10">
+      <div className="w-full 2xl:w-[800px]  h-[400px] md:h-[500px] lg:h-[700px] flex justify-center items-center lg:px-10 lg:mt-10">
         {pokemons.count ? (
           <>
             <div className="grid grid-cols-5 gap-1 lg:gap-x-25 xl:gap-x-10  mx-auto place-items-center py-2 2xl:px-16 xl:px-0">
